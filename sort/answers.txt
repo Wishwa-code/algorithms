@@ -1,0 +1,21 @@
+sort1 uses: bubble sort
+
+How do you know?:
+buble sort has O(n) timecomplexity for already sorted arrays assuming initial check of 0 swaps for 1st iteration.
+It has relatively lowest running time for already sorted arrays and when comparing all three algorthms for sorted10000.txt,
+sort1 took only 0.068.s when it took 0.214s for random10000.txt and 0.270s for reversed10000.txt. Assuming it tooks n times to sort sorted array which is comparatively low it proves sort1 is hbubble sort.
+
+sort2 uses: merge sort
+
+How do you know?:
+When comparison sort2 with all the categories it showed improvement for reversed list. And when compared all three algorthms for reversed10000.txt it showed 0.059s
+which is very small compared to 0.241s by sort1 and 0.133s by sort3.
+both selection sort has O(n^2) times (100,000,000 for 10000) timecomplexity but merge sort takes only 132,900 operations regardless of the order. It proved the same for random1000.txt achiving 0.060s time.
+Therefore due to its clear fast run time, it is evident this is merge sort algorithm.
+
+
+sort3 uses: selection sort
+
+How do you know?:
+Selection sort has O(n^2) time complexity regardless of the existing order meaning it takes same amount of time to sort any array due to its O(n^2) nature.
+sort3 algorithm took 0.139s for random, 0.140s for reversed, 0.162s for sorted in 10000 category. This observation proves that this algorithm takes relatively similar time for all order categories.
